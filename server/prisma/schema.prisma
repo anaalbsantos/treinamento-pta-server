@@ -22,3 +22,10 @@ model Test {
   name String
   age  Int
 }
+
+model Product {
+  id        String @id @default(uuid())
+  name      String 
+  quantity  Int
+  price     Float
+}
